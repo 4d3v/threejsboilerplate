@@ -1,0 +1,52 @@
+.u-text-center {
+  text-align: center !important;
+}
+
+.u-margin-top-s {
+  margin-top: 1.5rem !important;
+}
+
+.u-margin-top-m {
+  margin-top: 3rem !important;
+
+  @include respond(tab-port) {
+    margin-top: 3rem !important;
+  }
+}
+
+.u-margin-top-b {
+  margin-top: 7rem !important;
+
+  @include respond(tab-port) {
+    margin-top: 5rem !important;
+  }
+}
+
+.u-margin-bottom-s {
+  margin-bottom: 1.5rem !important;
+}
+
+.u-margin-bottom-m {
+  margin-bottom: 3rem !important;
+
+  @include respond(tab-port) {
+    margin-bottom: 3rem !important;
+  }
+}
+
+.u-margin-bottom-b {
+  margin-bottom: 7rem !important;
+
+  @include respond(tab-port) {
+    margin-bottom: 5rem !important;
+  }
+}
+
+%cover {
+  height: 100%;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
